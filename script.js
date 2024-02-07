@@ -5,7 +5,7 @@ const main = document.querySelector('.main');
 const continueBtn = document.querySelector('.continue-btn'); 
 const quizSection = document.querySelector('.quiz-section'); 
 const quizBox = document.querySelector('.quiz-box');
-const nextBtn = documen.querySelector('.next-btn');
+
 
 startBtn.onclick = () => {
     popupInfo.classList.add('active'); 
@@ -26,10 +26,7 @@ continueBtn.onclick = () => {
     showQuestions(0); 
     questionCounter(1);
 }
-    nextBtn.onclick = () => {
-        questionCount++;
-        showQuestions(questionCount);
-}
+
 
 let questionCount = 0; 
 
@@ -48,6 +45,9 @@ nextBtn.onclick = () => {
    }
 }
 
+nextBtn.onclick = () => {
+        questionCount++;
+        showQuestions(questionCount);
 const optionList = document.querySelector('.option-list');
 
 function showQuestions(index) {
@@ -65,6 +65,7 @@ function showQuestions(index) {
     for (let i = 0; i < option.length; i++) {
         option[i].setAttribute('onclick', 'optionSelected(this)');
     }
+}
 }
 
 function questionCounter(index) {
