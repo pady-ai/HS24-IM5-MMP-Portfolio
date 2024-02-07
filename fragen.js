@@ -55,5 +55,5 @@ let questions = [
             "C. Sich nur auf eine einzige Nachrichtenquelle zu verlassen."
 
         ]
-    },
-];
+    }
+]

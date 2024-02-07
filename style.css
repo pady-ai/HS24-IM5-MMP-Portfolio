@@ -253,7 +253,20 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
+    opacity: 0; 
+    pointer-events: none; 
+    transform: scale(.9);
 }
+
+.quiz-section .quiz-box.active {
+        opacity: 1;
+        pointer-events: auto;
+        transform: scale(1);
+        transition: 1s ease;
+        transition-delay: 1s;
+}
+
+   
 
 .quiz-box h1 {
     font: 32px; 
@@ -316,5 +329,6 @@ body {
     justify-content: space-between;
     align-items: center;
 
-
+    
+   
 }

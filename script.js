@@ -9,16 +9,37 @@ const quizBox = document.querySelector('.quiz-box');
 startBtn.onclick = () => {
     popupInfo.classList.add('active'); 
     main.classList.add('active'); 
-   
+}
 
 exitBtn.onclick = () => {
     popupInfo.classList.remove('active'); 
     main.classList.remove('active'); 
-}
+    }
 
 continueBtn.onclick = () => {
     quizSection.classList.add('active'); 
     popupInfo.classList.remove('active'); 
     main.classList.remove('active'); 
     quizBox.classList.add('active');
+
+    showQuestions(0); 
+}
+    nextBtnBtn.onclick = () => {
+        questionCount++;
+        showQuestions(questionCount);
+}
+
+let questionCount = 0; 
+
+const nextBtn = document.querySelector('.next-btn');
+
+nextBtn.onclick = () => {
+    questionCount++;
+    showQuestions(questionCount);
+}
+
+function showQuestions(index) {
+    const questionText = document.querySelector('.question-text');
+    questionText.textContent = '${question[index].numb}. ${question[index].question}';
+
 }
