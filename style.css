@@ -26,10 +26,11 @@ body {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 48px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+    filter: drop-shadow(0 0 5 #09001d);
 }
 
 .navbar a {
@@ -38,7 +39,7 @@ body {
 
 .navbar a {
     margin-right: 20px; 
-    font-size: 18px;
+    font-size: 32px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -48,14 +49,14 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #c40094;
+    color: #aed017;
 
 }
 
 .main {
-        background-image: url('images/background.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    
+    min-height: 100vh;
+    background-image: url('images/background.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
