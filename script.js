@@ -8,7 +8,7 @@ const quizSection = document.querySelector('.quiz-section');
 startBtn.onclick = () => {
     popupInfo.classList.add('active'); 
     main.classList.add('active'); 
-}
+   
 
 exitBtn.onclick = () => {
     popupInfo.classList.remove('active'); 
@@ -16,7 +16,7 @@ exitBtn.onclick = () => {
 }
 
 continueBtn.onclick = () => {
-    quizSection.classList.remove('active'); 
+    quizSection.classList.add('active'); 
     popupInfo.classList.remove('active'); 
     main.classList.remove('active'); 
 }
