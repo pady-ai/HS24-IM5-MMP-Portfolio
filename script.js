@@ -5,6 +5,7 @@ const main = document.querySelector('.main');
 const continueBtn = document.querySelector('.continue-btn'); 
 const quizSection = document.querySelector('.quiz-section'); 
 const quizBox = document.querySelector('.quiz-box');
+const nextBtn = documen.querySelector('.next-btn');
 
 startBtn.onclick = () => {
     popupInfo.classList.add('active'); 
@@ -25,7 +26,7 @@ continueBtn.onclick = () => {
     showQuestions(0); 
     questionCounter(1);
 }
-    nextBtnBtn.onclick = () => {
+    nextBtn.onclick = () => {
         questionCount++;
         showQuestions(questionCount);
 }
