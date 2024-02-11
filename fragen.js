@@ -1,59 +1,57 @@
 let questions = [
     {
-        numb: 1, 
-        question: "Was ist ein Merkmal von Fake News?",
-        answer: "C. Sie verbreiten falsche oder irreführende Informationen.",
+        numb: 1,
+        question: "What does HTML stand for?",
+        answer: "C. Hyper Text Markup Language",
         options: [
-            "A. Sie basieren immer auf Fakten.",
-            "B. Sie sind oft gut recherchiert.",
-            "C. Sie verbreiten falsche oder irreführende Informationen."
-
+            "A. Hyper Type Multi Language",
+            "B. Hyper Text Multiple Language",
+            "C. Hyper Text Markup Language",
+            "D. Home Text Multi Language"
         ]
     },
     {
-        numb: 2, 
-        question: "Welche Rolle spielen soziale Medien bei der Verbreitung von Informationen?",
-        answer: "B. Sie können Informationen schnell verbreiten, aber auch zur Verbreitung von Fehlinformationen beitragen.",
+        numb: 2,
+        question: "What does CSS stand for?",
+        answer: "A. Cascading Style Sheet",
         options: [
-            "A. Sie haben keinen Einfluss auf die Verbreitung von Informationen. ",
-            "B. Sie können Informationen schnell verbreiten, aber auch zur Verbreitung von Fehlinformationen beitragen.",
-            "C. Sie garantieren die Richtigkeit aller veröffentlichten Informationen. "
-
+            "A. Cascading Style Sheet",
+            "B. Cute Style Sheet",
+            "C. Computer Style Sheet",
+            "D. Codehal Style Sheet"
         ]
     },
     {
-        numb: 3, 
-        question: "Warum ist es wichtig, Quellen zu überprüfen, bevor man Informationen weitergibt?",
-        answer: "B. Weil es wichtig ist, sicherzustellen, dass die Informationen korrekt und zuverlässig sind.",
+        numb: 3,
+        question: "What does PHP stand for?",
+        answer: "A. Hypertext Preprocessor",
         options: [
-            "A. Weil es Spaß macht.",
-            "B. Weil es wichtig ist, sicherzustellen, dass die Informationen korrekt und zuverlässig sind.",
-            "C. Weil man sich dadurch beliebt macht."
-
-
+            "A. Hypertext Preprocessor",
+            "B. Hometext Programming",
+            "C. Hypertext Preprogramming",
+            "D. Programming Hypertext Preprocessor"
         ]
     },
     {
-        numb: 4, 
-        question: "Was ist ein Beispiel für eine vertrauenswürdige Nachrichtenquelle?",
-        answer: "C. Eine renommierte Zeitung mit gutem Ruf für objektive Berichterstattung.",
+        numb: 4,
+        question: "What does SQL stand for?",
+        answer: "D. Structured Query Language",
         options: [
-            "A. Ein Blog, der keine Quellen angibt.",
-            "B. Eine Website, die oft Clickbait verwendet.",
-            "C. Eine renommierte Zeitung mit gutem Ruf für objektive Berichterstattung."
-            
-
+            "A. Strength Query Language",
+            "B. Stylesheet Query Language",
+            "C. Science Question Language",
+            "D. Structured Query Language"
         ]
     },
     {
-        numb: 5, 
-        question: "Was bedeutet es, kritisch gegenüber Medieninhalten zu sein?",
-        answer: "B. Informationen und Quellen sorgfältig zu prüfen und zu hinterfragen.",
+        numb: 5,
+        question: "What does XML stand for?",
+        answer: "D. Extensible Markup Language",
         options: [
-            "A. Alles zu glauben, was man liest.",
-            "B. Informationen und Quellen sorgfältig zu prüfen und zu hinterfragen.",
-            "C. Sich nur auf eine einzige Nachrichtenquelle zu verlassen."
-
+            "A. Excellent Multiple Language",
+            "B. Explore Multiple Language",
+            "C. Extra Markup Language",
+            "D. Extensible Markup Language"
         ]
     }
-]
+];
